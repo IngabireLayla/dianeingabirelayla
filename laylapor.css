@@ -1,0 +1,408 @@
+body {
+
+    background: url('bc-img.jpg') no-repeat;
+    background-size: cover;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*#list {
+    list-style: none;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 40;
+    background-color: black;
+    opacity: .8;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: monospace;
+    font-size: 48px;
+
+}*/
+
+.bodi {
+
+    height: auto;
+
+}
+
+
+
+a:hover {
+    background-color: gray;
+    display: none;
+}
+
+
+.footer {
+
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    opacity: .8;
+    color: white;
+    text-align: center;
+}
+
+
+.bby {
+
+    display: flex;
+    text-align: center;
+}
+
+
+
+.diane {
+
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+}
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other 
+@media screen and (max-width: 600px) {
+
+    .diane {
+        height: auto;
+    }
+}
+
+/* For mobile phones: 
+
+
+@media only screen and (min-width: 500px) {
+
+
+    .introl {
+
+        width: 100%;
+    }
+}*/
+
+
+/*.myself {
+    background: url('bc-img.jpg') no-repeat;
+    height: -50px;
+    width: 100%;
+    margin-bottom: 20%;
+    opacity: .8;
+
+}*/
+
+.line {
+
+    border: 10px solid silver;
+    border-radius: 50px;
+    width: 50px;
+    font-family: fantasy;
+
+}
+
+.topnav {
+
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    margin-right: 30%;
+
+}
+
+.nav-edit {
+    padding: 20px;
+}
+
+.topnav a {
+    float: left;
+    color: goldenrod;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-edit a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.topnav {
+
+    display: flex;
+    padding-left: 400px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+.callout {
+    padding: 15rem 0;
+    background: url(../img/bg-callout.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+/*h1,
+h2,
+    {
+
+    font-weight: 700;
+    text-align: center;
+}*/
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social {
+    position: fixed;
+    top: 20px;
+    padding: 50px;
+}
+
+.social ul {
+    padding: 0px;
+    -webkit-transform: translate(-270px, 0);
+    -moz-transform: translate(-270px, 0);
+    -ms-transform: translate(-270px, 0);
+    -o-transform: translate(-270px, 0);
+    transform: translate(-270px, 0);
+}
+
+.social ul li {
+    display: block;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.36);
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    -webkit-border-radius: 0 30px 30px 0;
+    -moz-border-radius: 0 30px 30px 0;
+    border-radius: 0 30px 30px 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.social ul li:hover {
+    -webkit-transform: translate(110px, 0);
+    -moz-transform: translate(110px, 0);
+    -ms-transform: translate(110px, 0);
+    -o-transform: translate(110px, 0);
+    transform: translate(110px, 0);
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.social ul li:hover a {
+    color: #000;
+}
+
+.social ul li:hover i {
+    color: #fff;
+    background: red;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.social ul li i {
+    margin-left: 10px;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background: #ffffff;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+/*skills container*/
+
+
+.Flex-hobycontainer {
+    display: flex;
+    height: 500px;
+    text-align: center;
+    padding: 16px 20px;
+
+}
+
+#button-button5 {
+
+    background-color: maroon;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+
+
+
+}
+
+.Hobytitle {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+
+}
+
+
+
+/* testimonials containers*/
+
+#testimonies_container {
+    background-color: transparent;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+}
+
+.white_colorhorizontally_centered_text {
+
+    display: flex;
+    text-align: center;
+
+}
+
+/*container flexibility*/
+
+.felxdiane {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+
+
+}
+
+
+.testimonial_card {
+    border: 1px solid darkgoldenrod;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inline_element {
+    display: inline;
+}
+
+.margin_2px {
+    margin: 2px;
+}
+
+.no_list_style {
+    list-style: none;
+}
+
+.padding_15px {
+    padding: 15px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.white_color {
+    color: white
+}
+
+.horizontally_centered_text {
+    text-align: center;
+}
+
+
+
+/*@media only screen and (min-width: 500px) {
+
+
+    .social {
+
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media only screen and (min-width: 500px) {
+
+
+    .testimonies_container {
+
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+
+
+    .felxdiane {
+        width: 100px;
+        height: 100;
+    }
+}*/
